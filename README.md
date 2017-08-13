@@ -2,7 +2,7 @@
 Annotation processor for mapping one model class to another.
 I wrote it for practising annotation processing.
 
-It maps fields values from one class to another if they are public and have same names or have public getters/setters methods.
+It maps fields values from one class to another if they are public and have the same names or have public getters/setters methods.
 
 ## How it works
 
