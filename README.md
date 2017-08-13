@@ -6,7 +6,7 @@ It maps fields values from one class to another if they are public and have the 
 
 ## How it works
 
-There are two annotation witch you can use:
+There are two annotation which you can use:
 
 * `@Map` you can annotate any static class with it, you should specify value argument for it of type `Class` (this class also has to be static). 
 Annotation processor will generate `FooToBarMapper` class where `Foo` is the name of annotated class and `Baz` is name of class specified
