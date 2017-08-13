@@ -14,4 +14,4 @@ as a value for this annotation.
 Generated class will contain method `Bar map(Foo foo)` which produces `Bar` object.
 All fields in `Bar` object will have the same values as fields in `foo` object with the same names. 
 
-* `@Exclude` fields or methods annotated with `@Exclude` won't be mapped.
+* `@Exclude` fields or getters annotated with `@Exclude` won't be mapped.
